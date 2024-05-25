@@ -10,7 +10,7 @@
     @vite('resources/css/app.css')
     <link rel="stylesheet" href="{{ asset('css/button.css') }}">
 </head>
-<body class="bg-slate-950 text-white">
+<body class="bg-black text-white">
     <x-header></x-header>
     {{ $content }}
     <x-footer></x-footer>
