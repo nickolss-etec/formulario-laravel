@@ -9,6 +9,7 @@
     <title>{{ $title }}</title>
     @vite('resources/css/app.css')
     <link rel="stylesheet" href="{{ asset('css/button.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/tetris.css') }}">
 </head>
 <body class="bg-black text-white">
     <x-header></x-header>
