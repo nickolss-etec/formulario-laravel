@@ -8,7 +8,7 @@
                     <li>Sobre Nós</li>
                 </a>
                 <a class="hover:font-bold hover:underline" href="#">
-                    <li>Produtos</li>
+                    <li>Dicas</li>
                 </a>
                 <a class="hover:font-bold hover:underline" href="#">
                     <li>Catálogo</li>
