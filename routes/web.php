@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContatoController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,3 +25,5 @@ Route::get('/about', function(){
 Route::get('/contact', function(){
     return view('contact');
 })->name('contact');
+
+Route::post('/adicionar', [ContatoController::class, 'adicionar'])->name('adicionar');

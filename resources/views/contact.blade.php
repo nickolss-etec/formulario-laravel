@@ -4,7 +4,8 @@
             <div class="max-w-xl mx-auto">
                 <h2 class="text-5xl py-2">Nos contate</h2>
 
-                <form method="POST" action="/adicionar">
+                <form method="POST" action="{{ route('adicionar') }}">
+                    @csrf
                     <div class="relative z-0 w-full mb-5 group">
                         <input type="email" name="floating_email" id="floating_email"
                             class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
@@ -46,8 +47,7 @@
                     </div>
                     <div class="grid md:grid-cols-2 md:gap-6">
                         <div class="relative z-0 w-full mb-5 group">
-                            <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="floating_phone"
-                                id="floating_phone"
+                            <input type="tel" name="floating_phone" id="floating_phone"
                                 class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                                 placeholder=" " required />
                             <label for="floating_phone"
