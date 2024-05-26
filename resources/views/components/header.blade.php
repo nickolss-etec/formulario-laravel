@@ -7,10 +7,10 @@
                 <a class="hover:font-bold hover:underline" href="{{ route('about') }}">
                     <li>Sobre Nós</li>
                 </a>
-                <a class="hover:font-bold hover:underline" href="#">
+                <a class="hover:font-bold hover:underline" href="{{ route('error') }}">
                     <li>Dicas</li>
                 </a>
-                <a class="hover:font-bold hover:underline" href="#">
+                <a class="hover:font-bold hover:underline" href="{{ route('error') }}">
                     <li>Catálogo</li>
                 </a>
                 <a class="hover:font-bold hover:underline" href="{{ route('contact') }}">

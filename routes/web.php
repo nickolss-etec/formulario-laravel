@@ -22,6 +22,10 @@ Route::get('/about', function(){
     return view('about');
 })->name('about');
 
+Route::get('/error' , function(){
+    return view('error');
+})->name('error');
+
 Route::get('/contact', function(){
     return view('contact');
 })->name('contact');
